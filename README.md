@@ -13,11 +13,11 @@ Pointers (next, prev)
 Real-time changes during operations
 
 **🎯 Features**
-✅ Supports three linked list types
-✅ Real-time visual representation of nodes & pointers
-✅ Interactive playlist controls
-✅ Educational step-by-step simulation
-✅ Clean and beginner-friendly GUI
+✅ Supports three linked list types\n
+✅ Real-time visual representation of nodes & pointers\n
+✅ Interactive playlist controls\n
+✅ Educational step-by-step simulation\n
+✅ Clean and beginner-friendly GUI\n
 
 **Data Structures Implemented**
 Singly Linked List
