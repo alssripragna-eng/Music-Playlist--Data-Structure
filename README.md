@@ -1,97 +1,133 @@
-🎵 **Playlist Manager – Data Structures Simulation**
-__________________________________________________
-A visual and interactive Python application that simulates three fundamental Linked List data structures using a real-world music playlist manager.
-This project helps students understand data structures through visualization and user interaction.
+# 🎵 Linked List Playlist Manager
 
-📌 **Project Overview**
-The Playlist Manager demonstrates how different linked list implementations behave when performing common playlist operations such as adding, removing, and navigating songs.
+A visual and interactive Python application that simulates three fundamental Linked List data structures using a real-world **music playlist manager**.
 
-The project visually shows:
+This project helps students clearly understand **Singly**, **Doubly**, and **Circular** Linked Lists through visualization and user interaction.
 
-Nodes (songs)
-Pointers (next, prev)
-Real-time changes during operations
+---
 
-**🎯 Features**
-✅ Supports three linked list types\n
-✅ Real-time visual representation of nodes & pointers\n
-✅ Interactive playlist controls\n
-✅ Educational step-by-step simulation\n
-✅ Clean and beginner-friendly GUI\n
+## 📌 Project Overview  
 
-**Data Structures Implemented**
-Singly Linked List
-Doubly Linked List
-Circular Linked List
+The Playlist Manager demonstrates how different linked list implementations behave when performing playlist operations:
 
-**🧠 Data Structures Explained**
-1️⃣ **Singly Linked List**
-Each node points to the next node
-Forward navigation only
-Memory efficient
-2️⃣ **Doubly Linked List**
-Each node points to next and previous nodes
-Allows forward & backward traversal
-Uses extra memory
-3️⃣ ** Circular Linked List**
-Last node links back to the first node
-Infinite looping
-Ideal for repeat playlists
+- Adding songs  
+- Removing songs  
+- Navigating (Next / Previous)  
+- Looping through songs  
+- Viewing real-time pointer and node changes  
 
-**🎮 How to Use**
-Run the application
-Select the Linked List type from the dropdown
-Add songs manually or using Add Random
-Use playback controls:
-▶ Play
-⏭ Next
-⏮ Previous
-Remove individual songs or clear the playlist
-Observe real-time visualization updates
+This tool visually displays:
 
-**📂 Project Structure**
+- 🟦 **Nodes (Songs)**  
+- 🔗 **Pointers (next / prev)**  
+- 🔄 **Live updates on every operation**  
+
+---
+
+## 🎯 Features  
+
+✅ Supports **three linked list types**  
+- Singly  
+- Doubly  
+- Circular  
+
+✅ Real-time **visual representation**  
+✅ Interactive playback & playlist controls  
+✅ Step-by-step educational simulation  
+✅ Clean and beginner-friendly GUI  
+  
+
+---
+
+## 📚 Data Structures Implemented  
+
+### 1️⃣ **Singly Linked List**
+- Node points to next only  
+- Forward traversal  
+- Memory efficient  
+
+### 2️⃣ **Doubly Linked List**
+- Node has `next` and `prev` pointers  
+- Forward + backward traversal  
+- Uses extra memory  
+
+### 3️⃣ **Circular Linked List**
+- Last node links back to the first  
+- Infinite looping capability  
+- Perfect for repeat playlists  
+
+---
+
+## 🎮 How to Use  
+
+1. Run the application  
+2. Choose the **Linked List type**  
+3. Add songs manually or through **Add Random**  
+4. Use playback controls:  
+   - ▶ **Play**  
+   - ⏭ **Next**  
+   - ⏮ **Previous**  
+5. Remove selected song or clear playlist  
+6. Observe the **real-time visualization** of linked list changes  
+
+---
+
+## 📂 Project Structure  
+
+```text
 playlist_manager/
 │
-├── main.py                  # Entry point – RUN THIS FILE
-├── README.md                # Project documentation
+├── main.py               # Entry point - RUN THIS FILE
+├── README.md             # Project documentation
 │
-├── data_structures/         # Core linked list implementations
-│   ├── node.py              # SongNode class
-│   ├── singly_list.py       # Singly Linked List
-│   ├── doubly_list.py       # Doubly Linked List
-│   └── circular_list.py     # Circular Linked List
+├── data_structures/      # Linked list implementations
+│   ├── node.py
+│   ├── singly_list.py
+│   ├── doubly_list.py
+│   └── circular_list.py
 │
-├── gui/                     # User Interface components
-│   ├── app.py               # Main application logic
-│   ├── controls.py          # Buttons and user inputs
-│   └── display.py           # Playlist visualization
+├── gui/                  # GUI components
+│   ├── app.py
+│   ├── controls.py
+│   └── display.py
 │
-└── utils/                   # Utility functions
-    └── helpers.py           # Sample data and helper methods
+└── utils/                # Helper utilities
+    └── helpers.py
+```
+---
+## 🛠 Technologies Used
 
-   ** 🛠 Technologies Used**
-   🔹 **Programming Language**
-Python 3.x
-🔹 **GUI Framework**
-Tkinter (Python built-in library)
-🔹 **Core Concepts**
-Data Structures
-Linked Lists (Singly, Doubly, Circular)
-Object-Oriented Programming (OOP)
-GUI Programming
-Event Handling
-🔹 **Development Tools**
-Visual Studio Code / Any Python IDE
-Git & GitHub (Version Control)
-🔹** Dependencies**
-None – This project uses only Python built-in libraries
+### 🔹 Programming Language
+- Python 3.x
 
-**⚙️ Installation & Execution**
-Install Python (if not installed)
-Clone or download this repository
-Navigate to the project folder
-Run the project using:
-python main.py
+### 🔹 GUI Framework
+- Tkinter (built-in Python library)
 
+### 🔹 Core Computer Science Concepts
+- Data Structures  
+  - Singly Linked List  
+  - Doubly Linked List  
+  - Circular Linked List  
+- Object-Oriented Programming (OOP)  
+- Event Handling  
+- GUI Programming  
 
+### 🔹 Development Tools
+- Visual Studio Code / PyCharm / Any Python IDE
+- Git & GitHub (Version Control)
+
+### 🔹 Dependencies
+- No external libraries required  
+- Uses only built-in Python packages
+
+---
+
+## ⚙️ Installation
+
+1. **Install Python 3.x**  
+   Download from: https://www.python.org/downloads/
+
+2. **Clone this repository**
+   ```bash
+   git clone https://github.com/yourusername/playlist-manager.git
 
